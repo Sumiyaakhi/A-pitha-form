@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha form</title>
+    <style>
+        label
+        {
+display: block;
+margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to jamaler maa pitha ghor</h2>
+    <form>
+        <label for="name">Your name:
+            <input type="text" id="name" placeholder="Your name" ></label>
+        
+        <label for="email">Your E-mail:
+            <input type="email" id="email" placeholder="Your E-mail" ></label>
+        
+            
+        </label>
+        <label for="">Your phone number:
+            <input type="number" id="phone" placeholder="Your Phone number">
+        </label>
+        <fieldset>
+            <legend>Pick one from there
+            </legend>
+            <label for="chitoi">
+                <input type="radio" name="pitha" id="chitoi">
+                chitoi
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa">
+                vapa
+            </label>
+            <label for="puli">
+                <input type="radio" name="pitha" id="puli">
+                puli
+            </label>
+            <label for="others">
+                <input type="radio" name="pitha" id="others">
+                others
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Take one ore more vortas</legend>
+                <label for="Sorisa">
+                    <input type="checkbox" name="vorta" id="sorisa">
+                    sorisa
+                </label>
+                <label for="kalojira">
+                    <input type="checkbox" name="vorta" id="kalojira">
+                    kalojira
+                </label>
+                <label for="Shutki">
+                    <input type="checkbox" name="vorta" id="shutki">
+                    shutki
+                </label>
+        </fieldset>
+        <fieldset>
+            <legend>Take any special instructions</legend>
+            <textarea name="" id="" cols="10" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" name="reset" value="reset">
+        <input type="submit" name="submit" value="submit">
+      
+        
+    </form>
+</body>
+</html>
